@@ -28,6 +28,15 @@ To be able to run the app for cellphone, you'll need an emulator. I'd recommend 
 
 Once you have your emulator running, go to tindev folder and run the command `npx react-native run-android`
 
+You might need to switch the code on the api.js file depending on which emulator you're using to run your mobile app:
+
+```
+  baseURL: "http://10.0.2.2:3333", // android studio
+  baseURL: 'http://10.0.3.2:3333', // genymotion
+  baseURL: 'http://localhost:3333', // ios
+  baseURL: 'http://network_ip_address:3333', // via usb
+```
+
 **If you get the following error:**
 
 ![error](https://github.com/djanlm/SemanaOmniStack8_TINDEV/blob/master/error.png)
