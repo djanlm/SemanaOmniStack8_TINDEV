@@ -14,6 +14,7 @@ In order to run and open react-native projects you will need to setup the enviro
 
 * Create or choose a folder where you gonna clone the project.
 * Clone the repository with the command `git clone https://github.com/djanlm/SemanaOmniStack8_TINDEV.git`
+* Run `yarn` to install all dependencies in each folder.
 
 #### Backend
 To run the backend, go to the backend folder and run the command `yarn dev`. It will run on port 3333.
